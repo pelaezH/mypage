@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Juan José</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div>
+      <nav></nav>
+    </div>
+    <div class="columns">
+      <div class="column is-half">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a
+              role="button"
+              class="navbar-burger burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div class="navbar-menu is-hidden-desktop" id="navMenu">
+            <span><a class="navbar-item" href="">Home</a></span>
+            <span><a class="navbar-item" href="">About</a></span>
+            <span><a class="navbar-item" href="">Projects</a></span>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item">
+                Home
+              </a>
+
+              <a class="navbar-item">
+                About
+              </a>
+              <a class="navbar-item">
+                Projects
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="column is-half hola">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+        voluptatibus dignissimos distinctio! Nesciunt in, mollitia ad quis
+        necessitatibus veritatis impedit cupiditate ut delectus labore?
+        Blanditiis neque dolorum explicabo ut! Eaque?
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab amet
+          corrupti totam quam veritatis magni enim voluptate, eius perferendis
+          ad! Repellat sapiente ratione harum sit omnis a tempore possimus
+          maxime.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          provident quidem quos, quibusdam odit ut temporibus corporis, atque
+          debitis explicabo maxime ex enim laborum? Sequi enim molestias tenetur
+          quibusdam porro!
+        </h2>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+          // Add a click event on each of them
+          $navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
