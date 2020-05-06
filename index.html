@@ -9,6 +9,18 @@
       href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css"
     />
     <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit-pro.fontawesome.com/releases/latest/js/pro.min.js"
+      data-auto-a11y="true"
+      data-auto-fetch-svg=""
+      data-fetch-svg-from="https://kit-pro.fontawesome.com/releases/latest/svgs"
+      defer=""
+    ></script>
+    <script
       defer
       src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
     ></script>
@@ -16,107 +28,265 @@
   </head>
 
   <body>
-    <div>
-      <nav></nav>
-    </div>
-    <div class="columns">
-      <div class="column is-half">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-          <div class="navbar-brand">
-            <a
-              role="button"
-              class="navbar-burger burger"
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
+    <section class="heros">
+      <div class="columns">
+        <div class="column is-half">
+          <img src="css/hola.jpg" class="mia" />
+        </div>
+        <div class="column is-half dos">
+          <h1 class="hola">Hi</h1>
+          <div class="content">
+            <p>My name is Juan José Peláez Villegas</p>
+
+            <p>
+              I have a licenciature in Enginer in Computer System and have two
+              mobile applications in the store, Andoid and ios.
+            </p>
+            <p>
+              I work in reactive technologies, frontend principalyment and if
+              necessary also in the back-end
+            </p>
+            <p>
+              I do not consider myself very good but I want to improve myself
+              every day and to overcome the challenges that are proposed to me
+            </p>
+            <p>
+              I am available to work independently, do not hesitate to contact
+              me!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero is-fullheight">
+      <div class="columns">
+        <div class="column is-half">
+          <h1 class="about">ABOUT</h1>
+          <div class="container">
+            <p>
+              I am a self-taught developer, I started coding during my career
+              and it has become a passion for me.
+            </p>
+
+            <p>
+              Through the different challenges I have had and have learned
+              different programming languages.
+            </p>
+
+            <p>I love challenges, new projects, and problem solving.</p>
+            <br />
+          </div>
+        </div>
+        <div class="column is-half Aos-init aos-animate">
+          <img src="css/html.jpg" class="html" />
+        </div>
+      </div>
+    </section>
+
+    <section class="heros is-fullheight">
+      <div class="hero-body">
+        <div class="co">
+          <h1 class="skill">SKILLS</h1>
+          <div class="columns" id="titulo">
+            <div class="column is-half">
+              <div class="conta">
+                <h1>FLUTTER</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="60"
+                  max="100"
+                ></progress>
+                <h1>ANGULAR</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="70"
+                  max="100"
+                ></progress>
+                <h1>JAVA</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="40"
+                  max="100"
+                ></progress>
+                <h1>FIREBASE</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="80"
+                  max="100"
+                ></progress>
+              </div>
+            </div>
+            <div class="column is-half Aos-init aos-animate">
+              <div class="cont">
+                <h1>HTML</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="70"
+                  max="100"
+                ></progress>
+                <h1>CSS</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="70"
+                  max="100"
+                ></progress>
+                <h1>ADOBE XD</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="80"
+                  max="100"
+                ></progress>
+                <h1>LARAVEL</h1>
+                <progress
+                  id="col"
+                  class="progress"
+                  value="60"
+                  max="100"
+                ></progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+
+    <section class="hero is-medium is-ligth is-bold">
+      <div class="hero-body">
+        <div class="containe">
+          <div class="columns is-multiline">
+            <div class="column is-12 about-me">
+              <h1 class="titl has-text-centered section-title contact-text">
+                Contact
+              </h1>
+            </div>
+
+            <div
+              class="column is-4 aos-init aos-animate"
+              data-aos="fade-in"
+              data-aos-easing="linear"
             >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-
-          <div class="navbar-menu is-hidden-desktop" id="navMenu">
-            <span><a class="navbar-item" href="">Home</a></span>
-            <span><a class="navbar-item" href="">About</a></span>
-            <span><a class="navbar-item" href="">Projects</a></span>
-          </div>
-
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item">
-                Home
+              <a
+                class="bd-focus-item column has-text-centered"
+                href="https://twitter.com/Pelaez1996"
+                target="_blank"
+              >
+                <figure class="bd-focus-icon">
+                  <span class="bd-focus-github icon is-large">
+                    <svg
+                      class="svg-inline--fa fa-twitter-square fa-w-14 fa-3x"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="twitter-square"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      data-fa-i2svg=""
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"
+                      ></path>
+                    </svg>
+                  </span>
+                </figure>
+                <p class="title is-4">
+                  <strong>Twitter</strong>
+                </p>
               </a>
-
-              <a class="navbar-item">
-                About
+            </div>
+            <div
+              class="column is-4 aos-init aos-animate"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <a
+                class="bd-focus-item column has-text-centered"
+                href="https://github.com/pelaezH"
+                target="_blank"
+              >
+                <figure class="bd-focus-icon">
+                  <span class="bd-focus-github icon is-large">
+                    <svg
+                      class="svg-inline--fa fa-github-alt fa-w-15 fa-3x"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="github-alt"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 480 512"
+                      data-fa-i2svg=""
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"
+                      ></path>
+                    </svg>
+                  </span>
+                </figure>
+                <p class="title is-4">
+                  <strong>Github</strong>
+                </p>
               </a>
-              <a class="navbar-item">
-                Projects
+            </div>
+
+            <div
+              class="column is-4 aos-init aos-animate"
+              data-aos="fade-in"
+              data-aos-easing="linear"
+            >
+              <a
+                class="bd-focus-item column has-text-centered"
+                href="https://www.linkedin.com/in/juan-jos%C3%A9-pel%C3%A1ez-villegas-2768801a4/"
+                target="_blank"
+              >
+                <figure class="bd-focus-icon">
+                  <span class="bd-focus-github icon is-large">
+                    <svg
+                      class="svg-inline--fa fa-linkedin fa-w-14 fa-3x"
+                      aria-hidden="true"
+                      focusable="false"
+                      data-prefix="fab"
+                      data-icon="linkedin"
+                      role="img"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 448 512"
+                      data-fa-i2svg=""
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      ></path>
+                    </svg>
+                  </span>
+                </figure>
+                <p class="title is-4">
+                  <strong>Linkedin</strong>
+                </p>
               </a>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
-      <div class="column is-half hola">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-        voluptatibus dignissimos distinctio! Nesciunt in, mollitia ad quis
-        necessitatibus veritatis impedit cupiditate ut delectus labore?
-        Blanditiis neque dolorum explicabo ut! Eaque?
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab amet
-          corrupti totam quam veritatis magni enim voluptate, eius perferendis
-          ad! Repellat sapiente ratione harum sit omnis a tempore possimus
-          maxime.
-        </p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <h2>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
-          provident quidem quos, quibusdam odit ut temporibus corporis, atque
-          debitis explicabo maxime ex enim laborum? Sequi enim molestias tenetur
-          quibusdam porro!
-        </h2>
-      </div>
-    </div>
-    <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        // Get all "navbar-burger" elements
-        const $navbarBurgers = Array.prototype.slice.call(
-          document.querySelectorAll(".navbar-burger"),
-          0
-        );
+    </section>
 
-        // Check if there are any navbar burgers
-        if ($navbarBurgers.length > 0) {
-          // Add a click event on each of them
-          $navbarBurgers.forEach((el) => {
-            el.addEventListener("click", () => {
-              // Get the target from the "data-target" attribute
-              const target = el.dataset.target;
-              const $target = document.getElementById(target);
-
-              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-              el.classList.toggle("is-active");
-              $target.classList.toggle("is-active");
-            });
-          });
-        }
-      });
-    </script>
+    <footer class="footer">
+      <p class="fo">
+        This site was created for my, hosted in github.com, I use HTML 5, CSS 3
+        & Bulma CSS framework.
+        <br />
+        Created May 2020.
+      </p>
+    </footer>
   </body>
 </html>

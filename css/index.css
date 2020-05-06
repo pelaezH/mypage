@@ -1,45 +1,177 @@
-.navbar .navbar-burger.is-navbar-home span {
-  background-color: #fbfbfb;
+/*seccion 1*/
+.hola {
+  margin-top: 1cm;
+  font-size: 2cm;
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
-
-.navbar .navbar-burger span {
-  height: 3px;
-  left: calc(50% - 15px);
-  width: 30px;
+.heros {
+  background-color: #45b69c;
 }
-.navbar-burger span:nth-child(1) {
-  top: calc(50% - 6px);
-}
-.navbar-burger span {
-  background-color: currentColor;
+.mia {
+  border-radius: 12px;
+  width: 8cm;
+  height: 10cm;
   display: block;
-  height: 1px;
-  left: calc(50% - 8px);
-  position: absolute;
-  transform-origin: center;
-  transition-duration: 86ms;
-  transition-property: background-color, opacity, transform;
-  transition-timing-function: ease-out;
-  width: 16px;
+  margin: 2.65cm auto;
+  width: 50%;
 }
-.navbar .navbar-item.is-active {
-  border-bottom: 3px solid #1976d2;
-}
-a.navbar-item:focus,
-a.navbar-item:focus-within,
-a.navbar-item:hover,
-a.navbar-item.is-active,
-.navbar-link:focus,
-.navbar-link:focus-within,
-.navbar-link:hover,
-.navbar-link.is-active {
-  background-color: #c06af1;
+.column.is-half.dos {
   color: #000000;
 }
-a.navbar-item,
-.navbar-link {
-  cursor: pointer;
+div.content {
+  margin-top: 1cm;
+  margin-left: 1cm;
+  margin-right: 2cm;
+  font-size: 0.5cm;
+  text-align: justify;
+  line-height: 150%;
 }
-.column.is-half.hola {
-  background-color: red;
+/*seccion 2*/
+.title {
+  margin-top: 3cm;
+  color: black;
+}
+div.container {
+  margin-top: 3cm;
+  margin-left: 2cm;
+  margin-right: 3cm;
+  color: black;
+  font-size: 0.5cm;
+  text-align: justify;
+  line-height: 150%;
+}
+img.html {
+  border-radius: 8px;
+  width: 12cm;
+  height: 9cm;
+  display: block;
+  margin: 4cm auto;
+}
+h1.about {
+  margin-top: 1cm;
+  font-size: 1.5cm;
+  text-align: center;
+  color: black;
+}
+body {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+}
+/*TERCERA PARTE*/
+
+h1.skill {
+  margin-bottom: 1cm;
+  font-size: 1cm;
+  text-align: center;
+  color: #000000;
+}
+.progress {
+  animation-iteration-count: infinite;
+
+  font-style: oblique;
+}
+
+.co {
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-bottom: 3cm;
+  margin-top: 1.5cm;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.hero-body {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1rem;
+}
+#titulo {
+  color: #000000;
+}
+/*parte 4*/
+.hero is-medium is-ligth is-bold {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 10%;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  color: #4a4a4a;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: inherit;
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+.title.is-4 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.titl {
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+.icon.is-large {
+  height: 4rem;
+  width: 4rem;
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+.columns is-multiline {
+  display: flex;
+  position: relative;
+}
+.containe {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  color: #4a4a4a;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: inherit;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+.footer {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  color: #000000;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: inherit;
+  display: block;
+  padding: 3rem 1.5rem 4rem;
+  background-color: #45b69c;
+}
+p.fo {
+  text-align: center;
 }
